@@ -63,6 +63,11 @@
 .bg-dark {
   background-color: #0a233b; }
 
+.bg-red {
+  background-color: #EE3B3B; }
+
+
+
 /*=== MEDIA QUERY ===*/
 * {
   outline: 0;
