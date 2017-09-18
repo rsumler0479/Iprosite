@@ -546,17 +546,67 @@
 		
 
 			
-		<div class="display-single_element">
-		
-			<div id="circle1">
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="card single-block">
+			<div class="card-header" role="tab" id="headingFive">
+				<h3 class="mb-0">
+					Cicle progress
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+						&lt;&gt;  show code
+					</a>
+				</h3>
+			</div>
+
+			<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+				<div class="card-block">
+					<div class="code_container">
+						<pre class="language-html">
+<code>
+	&lt;div data-value="0.85" 
+		data-thickness="6"
+      	class="circle1"
+		data-fill="{
+        &quot;color&quot;: &quot;#7bd1df&quot;
+      	}" > 
+		&lt;strong>85%&lt;/strong>
+		&lt;span class="text">Wordpress&lt;/span>
+	&lt;/div>
+</code>
+						</pre>
+						<h5>How to use</h5>
+						<ul>
+							<li>Circle progress bar is designed using <a href="https://github.com/kottenator/jquery-circle-progress" target="_blank"><mark>jquery-circle-progress</mark></a> api.</li>
+							<li>Use a class of ID as a hook in the main js file.</li>
+							<li>You can either declare values using <span class="na highlighter">data-</span> attribute like the code above or through the javascript as shown below. 
+						<pre class="language-javascript">
+<code>
+	$('#circle1').circleProgress({
+	    value: 0.75,
+	    size: 80,
+	    fill: {
+	      gradient: ["red", "orange"]
+	    }
+	  });
+</code>
+						</pre>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="display-single_element">
+		<p>Example</p>
 		<div class="circle-progress">
 			<div class="row text-center">
 				<div class="col-md-3">
 					<div data-value="0.85"
 						data-thickness="6"
-				      	        class="circle1"
-						data-fill="{"color": "#DF7BD1"
-      	                                                   }" > 
+				      	class="circle1"
+						data-fill="{
+				        &quot;color&quot;: &quot;#7bd1df&quot;
+				      	}"> 
 						<strong>85%</strong>
 						<span class="text">Wordpress</span>
 					</div>
@@ -590,6 +640,7 @@
 	</div>
 	
 </div>
+
 			
 	
 
