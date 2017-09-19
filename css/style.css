@@ -4625,10 +4625,10 @@ ol.styled_list {
 --> 5.1 SLIDER SECTION
 ================================================*/
 #banner-slider .bg-image-holder {
-  height: 200px; }
+  height: 150px; }
   @media (min-width: 768px) {
     #banner-slider .bg-image-holder {
-      height: 400px; } }
+      height: 350px; } }
   @media (min-width: 992px) {
     #banner-slider .bg-image-holder {
       height: 550px; } }
