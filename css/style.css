@@ -5076,6 +5076,11 @@ ol.styled_list {
 .brand_carousel .slick-slider {
   padding: 0px; }
 
+img.test {
+width : 100%;
+height : auto;
+}
+
 /*==============================================
 --> 5.10 BLOG
 ================================================*/
