@@ -71,7 +71,11 @@
 
 /*=== Progress Bar ===*/
 
-
+.jumbotron {
+      background-color: #051E3E;
+      color: #fff;
+      padding: 15px 25px;
+      font-family: Montserrat, sans-serif;
 
 
 
